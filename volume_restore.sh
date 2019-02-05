@@ -3,7 +3,6 @@
 # Data in restored in volume with same backupped path
 NEW_CONTAINER_NAME=$1
 BACKUP_FILE=$2
-DATE=$(date +%Y%m%d_%H%M)
 
 usage() {
   echo "Usage: $0 [container name] [backup file]"
